@@ -8,7 +8,7 @@ public class Enum {
         YELLOW("#FFFF00"),
         BLACK("#000000");
 
-        String colorCode;
+        final String colorCode;
 
         Color(String colorCode) {
             this.colorCode = colorCode;
